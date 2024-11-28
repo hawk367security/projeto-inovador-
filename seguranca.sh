@@ -1,6 +1,6 @@
 apt upgrade && apt upgrade -y
 
-sudo apt install clawav
+sudo apt install clamav
 
 apt install snort 
 
