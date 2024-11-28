@@ -12,6 +12,9 @@ sudo apt-get update
 sudo apt-get install grafana
 sudo apt-get install grafana-enterprise
 
+sudo systemctl start grafana-server
+sudo systemctl enable grafana-server
+
 #clamav instalation
 sudo apt install clamav
 clamav-daemon-y
