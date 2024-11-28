@@ -1,13 +1,18 @@
 apt upgrade && apt upgrade -y
 
 sudo apt install clamav
+sudo apt install clamav-daemon
 
-apt install snort 
+sudo apt install snort 
+
+
 
 
 #wireshark instalation
-apt install wireshark 
+sudo apt install wireshark 
+
 sudo freshclam 
+sudo clamconf -n
 
 sudo groupadd wireshark 
 
